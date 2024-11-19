@@ -1,99 +1,123 @@
 # React + TypeScript + Vite Agriculture Data Analytics
 
 This project is a React application built with TypeScript and Vite to analyze agricultural data. The app processes and visualizes data from the Manufac_India_Agro_Dataset.json file, displaying tables for yearly crop production and averages using clean code, modular components, and a responsive design.
-<<<<<<< HEAD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-=======
-Features
+## Features
+
 React + TypeScript: Provides type safety and modular development.
 Vite: Ensures fast development and hot module replacement (HMR).
 Mantine UI Library: Used for building responsive and styled tables.
 Data Processing: Prepares data from JSON for meaningful insights.
 Custom ESLint Configuration: Enforces coding standards and best practices.
-Getting Started
->>>>>>> 142c0dff57541d12f9b7030ed1cce4c96e41085e
 
-Currently, two official plugins are available:
+# Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. Prerequisites
 
-## Expanding the ESLint configuration
+Node.js: v14 or higher
+Yarn: A package manager for managing dependencies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 2. Installation
 
-- Configure the top-level `parserOptions` property like this:
+Clone the repository:
+git clone https://github.com/123ramashish/indian-agriculture-dashboard.git
+cd indian-agriculture-dashboard
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
-
-<!--  1.the package install command command is -->
-
+Install dependencies:
 yarn
 
-<!-- 2. the command to run project -->
+## 3. Run the Project
 
+Start the development server:
 yarn dev
 
-<!-- the folder structure is -->
+Open the application in your browser at http://localhost:5173.
 
-public
-src
-assests
-components
-averageTable
-AverageTable.tsx
-helper.ts
-yearlyTable
-helper.ts
-YearlyTable.module.css
-YearlyTable.tsx
-data
-Manufac_India_Agro_Dataset.json
-App.tsx
-index.css
-main.tsx
-vite-env.ts
-eslint.config.js
-package.json
-postcss.config.cjs
-README.md
-tsconfig.app.json
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
-yarn.lock
+## 4. Build for Production
+
+Create a production-ready build:
+yarn build
+
+Preview the production build:
+yarn preview
+
+Folder Structure
+
+public/ # Public assets served directly
+src/
+assets/ # Static assets like images
+components/ # Modular React components
+averageTable/ # AverageTable component
+AverageTable.tsx # Displays crop averages
+helper.ts # Helper functions for AverageTable
+yearlyTable/ # YearlyTable component
+helper.ts # Helper functions for YearlyTable
+YearlyTable.module.css# Styles for YearlyTable
+YearlyTable.tsx # Displays yearly crop production
+data/ # Data folder
+Manufac_India_Agro_Dataset.json # Raw dataset
+App.tsx # Root component
+index.css # Global styles
+main.tsx # Entry point of the app
+vite-env.d.ts # Type declarations for Vite
+eslint.config.js # ESLint configuration
+package.json # Project metadata and dependencies
+postcss.config.cjs # PostCSS configuration
+README.md # Project documentation
+tsconfig.app.json # TypeScript app configuration
+tsconfig.json # Base TypeScript configuration
+tsconfig.node.json # TypeScript node configuration
+vite.config.ts # Vite configuration
+yarn.lock # Yarn lock file
+
+# Components
+
+## 1. YearlyTable
+
+- Displays crops with the maximum and minimum production for each year.
+- Fetches data from `Manufac_India_Agro_Dataset.json`.
+- Fully responsive, with styles managed in `YearlyTable.module.css`.
+
+## 2. AverageTable
+
+- Displays average crop yield and cultivation area from 1950–2020.
+- Data preprocessing is modularized in `helper.ts`.
+
+# Customization
+
+## ESLint
+
+We use a custom ESLint configuration to maintain code quality and consistency:
+
+- Type-Aware Lint Rules: Enabled through tseslint.configs.recommendedTypeChecked.
+- React Plugin: Enforces React best practices.
+
+To extend or modify:
+
+1.Open eslint.config.js.
+2.Update rules or settings as needed.
+
+# Dependencies
+
+## Core
+
+- React: ^18.x.x
+- TypeScript: ^4.x.x
+- Vite: ^4.x.x
+- Mantine Core: ^7.x.x
+
+## Dev
+
+- ESLint: ^8.x.x
+- TypeScript ESLint Plugin: ^6.x.x
+
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Contact
+
+For questions or feedback:
+
+Email: ramashish62127@gmail.com
+GitHub: 123ramashish
