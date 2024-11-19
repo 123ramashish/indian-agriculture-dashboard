@@ -58,20 +58,20 @@ Preview the production build:
 `│ │ ├── YearlyTable.tsx` # Displays yearly crop production  
 `│ │ ├── helper.ts` # Helper functions for YearlyTable  
 `│ │ └── YearlyTable.module.css` # Styles for YearlyTable  
-`├── data/` # Data folder
-`│ └── Manufac_India_Agro_Dataset.json` # Raw dataset
-`├── App.tsx` # Root component
-`├── index.css` # Global styles
-`├── main.tsx` # Entry point of the app
-`├── vite-env.d.ts` # Type declarations for Vite
-`eslint.config.js` # ESLint configuration
-`package.json` # Project metadata and dependencies
-`postcss.config.cjs` # PostCSS configuration
-`README.md `# Project documentation
-`tsconfig.app.json` # TypeScript app configuration
-`tsconfig.json` # Base TypeScript configuration
-`tsconfig.node.json` # TypeScript node configuration
-`vite.config.ts` # Vite configuration
+`├── data/` # Data folder  
+`│ └── Manufac_India_Agro_Dataset.json` # Raw dataset  
+`├── App.tsx` # Root component  
+`├── index.css` # Global styles  
+`├── main.tsx` # Entry point of the app  
+`├── vite-env.d.ts` # Type declarations for Vite  
+`eslint.config.js` # ESLint configuration  
+`package.json` # Project metadata and dependencies  
+`postcss.config.cjs` # PostCSS configuration  
+`README.md `# Project documentation  
+`tsconfig.app.json` # TypeScript app configuration  
+`tsconfig.json` # Base TypeScript configuration  
+`tsconfig.node.json` # TypeScript node configuration  
+`vite.config.ts` # Vite configuration  
 `yarn.lock` # Yarn lock file
 
 # Components
