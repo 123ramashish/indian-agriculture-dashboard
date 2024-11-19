@@ -81,11 +81,13 @@ Preview the production build:
 - Displays crops with the maximum and minimum production for each year.
 - Fetches data from `Manufac_India_Agro_Dataset.json`.
 - Fully responsive, with styles managed in `YearlyTable.module.css`.
+![Screenshot 2024-11-19 192440](https://github.com/user-attachments/assets/4157b5b7-fa3d-449c-b38a-7e364be29d58)
 
 ## 2. AverageTable
 
 - Displays average crop yield and cultivation area from 1950–2020.
 - Data preprocessing is modularized in `helper.ts`.
+![Screenshot 2024-11-19 192507](https://github.com/user-attachments/assets/fd44f33e-cef3-478d-8691-494817699438)
 
 # Customization
 
