@@ -1,0 +1,31 @@
+/*main container style */
+.container {
+    max-width: 90vw;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  /* table container style */
+  .tableContainer {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; /* Horizontal scroll for small screens */
+    height: 50vh;
+  }
+  /* tabel style */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* table heading and data style */
+  th,
+  td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  /* table heading background color */
+  th {
+    background-color: #f4f4f4;
+  }
+  
