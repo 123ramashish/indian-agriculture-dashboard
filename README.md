@@ -47,17 +47,17 @@ Preview the production build:
 
 ## Folder Structure
 
-`public/` # Public assets served directly
-`src/`
-`├── assets/` # Static assets like images
-`├── components/` # Modular React components
-`│ ├── averageTable/` # AverageTable component
-`│ │ ├── AverageTable.tsx` # Displays crop averages
-`│ │ └── helper.ts` # Helper functions for AverageTable
-`│ ├── yearlyTable/` # YearlyTable component
-`│ │ ├── YearlyTable.tsx` # Displays yearly crop production
-`│ │ ├── helper.ts` # Helper functions for YearlyTable
-`│ │ └── YearlyTable.module.css` # Styles for YearlyTable
+`public/` # Public assets served directly  
+`src/`  
+`├── assets/` # Static assets like images  
+`├── components/` # Modular React components  
+`│ ├── averageTable/` # AverageTable component  
+`│ │ ├── AverageTable.tsx` # Displays crop averages  
+`│ │ └── helper.ts` # Helper functions for AverageTable  
+`│ ├── yearlyTable/` # YearlyTable component  
+`│ │ ├── YearlyTable.tsx` # Displays yearly crop production  
+`│ │ ├── helper.ts` # Helper functions for YearlyTable  
+`│ │ └── YearlyTable.module.css` # Styles for YearlyTable  
 `├── data/` # Data folder
 `│ └── Manufac_India_Agro_Dataset.json` # Raw dataset
 `├── App.tsx` # Root component
