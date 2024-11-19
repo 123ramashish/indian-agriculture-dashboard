@@ -1,8 +1,18 @@
 # React + TypeScript + Vite Agriculture Data Analytics
 
 This project is a React application built with TypeScript and Vite to analyze agricultural data. The app processes and visualizes data from the Manufac_India_Agro_Dataset.json file, displaying tables for yearly crop production and averages using clean code, modular components, and a responsive design.
+<<<<<<< HEAD
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=======
+Features
+React + TypeScript: Provides type safety and modular development.
+Vite: Ensures fast development and hot module replacement (HMR).
+Mantine UI Library: Used for building responsive and styled tables.
+Data Processing: Prepares data from JSON for meaningful insights.
+Custom ESLint Configuration: Enforces coding standards and best practices.
+Getting Started
+>>>>>>> 142c0dff57541d12f9b7030ed1cce4c96e41085e
 
 Currently, two official plugins are available:
 
